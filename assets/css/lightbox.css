@@ -1,0 +1,18 @@
+.sl-wrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Bílé tlačítko pro zavření */
+.sl-wrapper .sl-close {
+  color: white !important;
+}
+
+/* Bílá barva pro navigační tlačítka */
+.sl-wrapper .sl-navigation button {
+  color: white !important;
+}
+
+/* Bílá barva pro počítadlo v lightboxu */
+.sl-wrapper .sl-counter {
+  color: white !important;
+}

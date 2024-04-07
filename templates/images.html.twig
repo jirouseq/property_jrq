@@ -1,0 +1,10 @@
+<div class="gallery datagrid">
+	{% for image in field.value %}
+		<a href="/upload/images/property/{{image.image}}"><img src="/upload/images/property/{{image.image}}" class="img-fluid img-thumbnail" style="width: 200px; max-height: 135px;" alt="" title=""/></a>
+	{% endfor %}
+</div>
+<script>
+	var lightbox = new SimpleLightbox('.gallery a', {
+        overlayOpacity: .8 // Nastavení průhlednosti overlaye na 70%
+    });
+</script>
